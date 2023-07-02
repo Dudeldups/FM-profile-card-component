@@ -20,7 +20,50 @@
 
     <title>Frontend Mentor | Profile card component</title>
   </head>
-  <body class="min-h-screen font-Kumbh text-lg/[1.2]">
-    Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
+  <body
+    class="min-h-screen font-Kumbh text-lg/[1.2] text-gray-blue grid place-content-center p-6 bg-dark-cyan"
+  >
+    <header class="sr-only">
+      <h1>This is a component from a Frontend Mentor challenge</h1>
+    </header>
+    <main
+      class="max-w-[21.875rem] rounded-xl overflow-hidden text-center bg-white shadow-2xl"
+    >
+      <div class="relative">
+        <img src="dist/images/bg-pattern-card.svg" alt="" />
+        <img
+          class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-full outline outline-[6px] outline-white"
+          src="dist/images/image-victor.jpg"
+          alt="Victor Crest"
+        />
+      </div>
+      <p class="mt-[4.5rem]">
+        <span class="font-bold text-dark-blue mr-2">Victor Crest</span>26
+      </p>
+      <p class="mt-2 text-sm">London</p>
+      <article class="mt-6 p-6 flex justify-center gap-6 border-t">
+        <p class="font-bold text-dark-blue">
+          80K
+          <span
+            class="inline-block font-normal text-gray-blue text-[0.7rem] tracking-widest"
+            >Followers</span
+          >
+        </p>
+        <p class="font-bold text-dark-blue">
+          803K
+          <span
+            class="inline-block font-normal text-gray-blue text-[0.7rem] tracking-widest"
+            >Likes</span
+          >
+        </p>
+        <p class="font-bold text-dark-blue">
+          1.4K
+          <span
+            class="inline-block font-normal text-gray-blue text-[0.7rem] tracking-widest"
+            >Photos</span
+          >
+        </p>
+      </article>
+    </main>
   </body>
 </html>
