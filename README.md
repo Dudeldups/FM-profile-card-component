@@ -19,7 +19,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/tailwind-qr-code-component-VKUWCWkjL7)
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/tailwind-profile-card-component-FVekXJETB1)
 - [Live site](https://dudeldups.github.io/FM-profile-card-component/)
 
 ## My process
