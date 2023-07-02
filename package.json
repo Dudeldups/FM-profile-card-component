@@ -1,0 +1,12 @@
+{
+  "name": "fm-profile-card-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
