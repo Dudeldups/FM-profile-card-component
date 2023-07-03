@@ -554,10 +554,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-\[4\.5rem\] {
-  margin-top: 4.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -566,8 +562,8 @@ video {
   margin-top: 1.5rem;
 }
 
-.block {
-  display: block;
+.mt-\[4\.5rem\] {
+  margin-top: 4.5rem;
 }
 
 .inline-block {
@@ -608,10 +604,6 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
@@ -632,18 +624,9 @@ video {
   border-top-width: 1px;
 }
 
-.bg-dark-cyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(185 75% 39% / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .p-6 {
@@ -658,6 +641,10 @@ video {
   font-family: Kumbh Sans;
 }
 
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
 .text-lg\/\[1\.2\] {
   font-size: 1.125rem;
   line-height: 1.2;
@@ -668,29 +655,12 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[0\.7rem\] {
-  font-size: 0.7rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .font-normal {
   font-weight: 400;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
 }
 
 .tracking-widest {
@@ -723,4 +693,11 @@ video {
 
 .outline-white {
   outline-color: #fff;
+}
+
+body {
+  background: url("../images/bg-pattern-top.svg") right 52vw bottom 35vh
+      no-repeat,
+    url("../images/bg-pattern-bottom.svg") left 48vw top 52vh no-repeat;
+  background-color: hsl(185deg, 75%, 39%);
 }

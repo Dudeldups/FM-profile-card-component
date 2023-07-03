@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: url("../images/bg-pattern-top.svg") right 52vw bottom 35vh
+      no-repeat,
+    url("../images/bg-pattern-bottom.svg") left 48vw top 52vh no-repeat;
+  background-color: hsl(185deg, 75%, 39%);
+}
